@@ -29,6 +29,11 @@ Host github.com
   Hostname github.com
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_rsa_home
+
+# Need to set git config user details for a specific project
+$ cd ~/home_project
+$ git config user.name "home_user"
+$ git config user.email "your_name@home_email.com" 
 ```
 # Useful resources
 - [Multiple SSH keys for different accounts on Github or Gitlab](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab)
