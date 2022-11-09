@@ -38,3 +38,11 @@ $ git config user.email "your_name@home_email.com"
 # Useful resources
 - [Multiple SSH keys for different accounts on Github or Gitlab](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab)
 - [Testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
+
+## 2022 Nov 09
+The method to add new files or folders to a `.gitignore` file and remove already existing stuff.
+First, update the gitignore file to exclude the files and folders you don't want to commit, then:
+```
+git rm -r --cached .
+git add .
+```
