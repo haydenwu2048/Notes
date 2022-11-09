@@ -46,3 +46,20 @@ First, update the gitignore file to exclude the files and folders you don't want
 git rm -r --cached .
 git add .
 ```
+Update node version globally
+```
+npm install n -g
+sudo n latest
+```
+Use pm2 assigning a PORT number
+```
+PORT=3001 pm2 start ./build/index.js 
+```
+
+### Tasks
+1. Figure out a general process that can turn daily code practice and readings into `Anki` flashcards.
+2. Python generator exercises
+3. How to automatically generate the similar daily header content, such as Tasks, Resources, Thoughts
+### Useful resources
+[How to Use Generators and yield in Python](https://realpython.com/introduction-to-python-generators/)
+[Working With Files in Python](https://realpython.com/working-with-files-in-python/)
