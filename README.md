@@ -63,3 +63,9 @@ PORT=3001 pm2 start ./build/index.js
 ### Useful resources
 [How to Use Generators and yield in Python](https://realpython.com/introduction-to-python-generators/)
 [Working With Files in Python](https://realpython.com/working-with-files-in-python/)
+
+## 2022 Nov 10
+
+### Resources
+[Natural Earth - free vector and raster map data](https://www.naturalearthdata.com/downloads/)
+[QGIS Desktop User Guide](https://docs.qgis.org/3.22/en/docs/user_manual/index.html)
