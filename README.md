@@ -65,6 +65,34 @@ PORT=3001 pm2 start ./build/index.js
 [Working With Files in Python](https://realpython.com/working-with-files-in-python/)
 
 ## 2022 Nov 10
+The command to change password on Mac:
+```
+passwd
+set-keychain-password
+```
+To generate a locate database on Mac:
+```
+ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+ # use the following command to update the locate database:
+ updatedb
+```
+**Linux wildcards**
+- `*` represents >= 0 characters
+- `?` represents 1 character
+- `[]` represents a range of characters
+- `^` represents the beginning of the line
+- `$` represents the end of the line
+- `\` represents an escape character
+An example of using wildcards to create a bunch of files in a folder:
+`touch test-{1..9}`
+The result: test-1	test-2	test-3	test-4	test-5	test-6	test-7	test-8	test-9
+
+**Linux Soft and Hard Links**
+`ls -li` : This command will list the inodes of the folders or files.
+Soft link points to the file, and hard link points to the inode of the file.
+The file name is just a reference to the actual location of where the file stored on the disk, essentially that's an inode.
+When a hard link is attached to a file, even if the original file is deleted, you can still access the file with the hard link.
+The structure is like: hard_link --> inode <-- file_name <-- soft_link
 
 ### Resources
 [Natural Earth - free vector and raster map data](https://www.naturalearthdata.com/downloads/)
