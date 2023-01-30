@@ -85,7 +85,8 @@ To generate a locate database on Mac:
 - `\` represents an escape character
 An example of using wildcards to create a bunch of files in a folder:
 `touch test-{1..9}`
-The result: test-1	test-2	test-3	test-4	test-5	test-6	test-7	test-8	test-9
+The result: test-1	test-2	test-3	test-4	test-5	test-6	test-7	test-8	test-9.
+Try the command: `mkdir {a..c}{1..3}`
 
 **Linux Soft and Hard Links**
 `ls -li` : This command will list the inodes of the folders or files.
